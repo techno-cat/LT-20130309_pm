@@ -1,7 +1,7 @@
 LT-20130309_pm
 ==============
 
-Hokkaido.pm#9のLTで使ったコード
+Hokkaido.pm#9のLTで使った、PureDataをPerlで操作するコード
 
  - demo1.pd
      - udp1.plでOSCを受信するデモで使用
