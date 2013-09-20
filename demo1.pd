@@ -1,0 +1,10 @@
+#N canvas 521 136 450 300 24;
+#X declare -lib mrpeach;
+#X obj 241 41 import mrpeach;
+#X obj 52 86 unpackOSC;
+#X obj 52 41 udpreceive 57120;
+#X obj 52 176 print;
+#X obj 52 131 routeOSC /foo/bar;
+#X connect 1 0 4 0;
+#X connect 2 0 1 0;
+#X connect 4 0 3 0;
